@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.space {
+    background-image: url("https://stepik.org/media/attachments/lesson/452681/space.png");
+    overflow: hidden;
+    width: 70vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.planet-area {
+    position: absolute;
+    width: 30%;
+    bottom: 0;
+}
+
+.planet {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.rocket {
+    position: absolute;
+    width: 40%;
+    left: 55%;
+    bottom: 30vh;
+    transform: rotate(23deg);
+}
+
+.control-panel {
+    padding: 1%;
+    background-color: #565656;
+    width: 20%;
+    height: 40%;
+    right: 20%;
+    bottom: 20%;
+    position: absolute;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.check-buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+.levers {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 3%;
+    height: 50%;
+    padding: 10%;
+}
+
+.levers input {
+    transform: rotate(-90deg);
+    margin: 0 -20% 4%;
+
+}
+
+input {
+    border-radius: 5px;
+}
